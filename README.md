@@ -2,7 +2,7 @@
 
 A complete full-stack task manager web application built with **Spring Boot** (backend) and **React** (frontend).
 
-## 🚀 Quick Start
+
 
 ### Prerequisites
 - **Java 17+** and Maven for backend
@@ -47,17 +47,17 @@ npm start
 
 The frontend will start on **http://localhost:3000** and automatically open in your browser.
 
-## 📋 Features
+##  Features
 
-✅ **Create Tasks** - Add new tasks with title and description
-✅ **View Tasks** - See all your tasks in a clean interface
-✅ **Mark Complete** - Check off tasks as you complete them
-✅ **Delete Tasks** - Remove tasks you no longer need
-✅ **Timestamps** - Auto-generated created and updated timestamps
-✅ **Responsive Design** - Works on desktop and mobile devices
-✅ **Real-time Updates** - Instant UI updates on data changes
+ **Create Tasks** - Add new tasks with title and description
+ **View Tasks** - See all your tasks in a clean interface
+ **Mark Complete** - Check off tasks as you complete them
+ **Delete Tasks** - Remove tasks you no longer need
+ **Timestamps** - Auto-generated created and updated timestamps
+ **Responsive Design** - Works on desktop and mobile devices
+ **Real-time Updates** - Instant UI updates on data changes
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 fullstack/
@@ -126,7 +126,7 @@ fullstack/
 }
 ```
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 ### Backend
 - **Java 17** - Programming language
@@ -144,7 +144,7 @@ fullstack/
 - **CSS3** - Styling
 - **npm** - Package manager
 
-## 🔄 Workflow
+##  Workflow
 
 1. **Create Task**: User enters title and description in the form and clicks "Add Task"
 2. **API Call**: Frontend sends POST request to backend
@@ -153,7 +153,7 @@ fullstack/
 5. **Update UI**: Frontend updates task list without page reload
 6. **Display**: User sees task in the list, can mark complete or delete
 
-## 🗄️ Database Schema
+##  Database Schema
 
 ### Tasks Table
 ```sql
@@ -167,14 +167,14 @@ CREATE TABLE tasks (
 );
 ```
 
-## 💻 Development Notes
+##  Development Notes
 
 - **CORS**: Backend is configured to accept requests from `http://localhost:3000`
 - **API Base URL**: Frontend defaults to `http://localhost:8080`
 - **H2 Console**: Access at `http://localhost:8080/h2-console` (dev only)
 - **Hot Reload**: Both backend (DevTools) and frontend support hot reloading
 
-## 🚀 Running in Production
+##  Running in Production
 
 ### Backend
 ```bash
@@ -188,7 +188,7 @@ npm run build
 # Deploy the build/ directory to a static hosting service
 ```
 
-## 📝 Future Enhancements
+##  Future Enhancements
 
 - [ ] User authentication and authorization
 - [ ] Task categories/tags
@@ -199,18 +199,18 @@ npm run build
 - [ ] Mobile app
 - [ ] Cloud deployment
 
-## 🤝 Contributing
+##  Contributing
 
 Feel free to fork this project and submit pull requests for any improvements.
 
-## 📄 License
+##  License
 
 This project is open source and available under the MIT License.
 
-## 📞 Support
+##  Support
 
 For issues or questions, please open an issue on GitHub or contact the development team.
 
 ---
 
-**Happy Task Managing! 🎯**
+**Happy Task Managing! **
